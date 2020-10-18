@@ -36,7 +36,7 @@ const customer = {
     address: "Po Box City",
 }
 const jsonString = JSON.stringify(customer)
-fs.writeFile('./my.json', jsonString, err => {
+fs.writeFile('my.json', jsonString, err => {
     if (err) {
         console.log('Error writing file', err)
     } else {
