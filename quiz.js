@@ -28,6 +28,21 @@ function check() {
     x.setAttribute("width", "100%");
     x.setAttribute("height", "100%");
     document.body.appendChild(x);
+  
+  const fs = require('fs')
+const customer = {
+    name: "Newbie Co.",
+    order_count: 0,
+    address: "Po Box City",
+}
+const jsonString = JSON.stringify(customer)
+fs.writeFile('./my.json', jsonString, err => {
+    if (err) {
+        console.log('Error writing file', err)
+    } else {
+        console.log('Successfully wrote file')
+    }
+})
 
 }
 
