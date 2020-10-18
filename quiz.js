@@ -2,7 +2,6 @@ var y = document.createElement("BUTTON");
 var z = document.createElement("BUTTON");
 var d = 0;
 var shopItems = [];
-        shopItems.push("ddivfifgbiifibbivbifbbfdibfiibvbifivb");
 
 
 function check() {
