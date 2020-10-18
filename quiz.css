@@ -1,0 +1,24 @@
+
+title {
+font-size: 2px;
+}
+body {
+    background-color: #FDEEC7;
+    color: black;
+    font-size: 16px;
+    margin-left: 2rem;
+}
+
+#button {
+    background-color: #FFCBA9;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
